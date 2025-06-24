@@ -1,0 +1,345 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catan - Заморская торговля</title>
+    <style>
+        @font-face {
+            font-family: 'Visitor TT2 Pro';
+            src: url('https://cdn.jsdelivr.net/npm/visitor@1.0.0/ttf/VisitorTT2BRK.ttf') format('truetype');
+        }
+        
+        body {
+            margin: 0;
+            padding: 0;
+            background: url('%ФонЗаморскойТорговли%') no-repeat center center fixed;
+            background-size: cover;
+            font-family: 'Visitor TT2 Pro', monospace;
+            color: #2C2C2C;
+            image-rendering: pixelated;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        
+        .container {
+            width: 800px;
+            height: 600px;
+            background-color: rgba(248, 243, 224, 0.9);
+            border: 12px solid #2C2C2C;
+            box-shadow: 15px 15px 0 rgba(0,0,0,0.3);
+            position: relative;
+            overflow: hidden;
+            backdrop-filter: blur(2px);
+        }
+        
+        .title-container {
+            background-color: #F8D157;
+            padding: 15px 0;
+            border-bottom: 8px solid #2C2C2C;
+            margin-bottom: 20px;
+        }
+        
+        .title {
+            font-size: 48px;
+            text-align: center;
+            margin: 0;
+            color: #B61921;
+            text-shadow: 4px 4px 0 #2C2C2C;
+            letter-spacing: 2px;
+        }
+        
+        .trade-content {
+            display: flex;
+            flex-direction: column;
+            height: calc(100% - 120px);
+            padding: 0 20px;
+        }
+        
+        .trade-sections {
+            display: flex;
+            justify-content: space-between;
+            height: 200px;
+            margin-bottom: 30px; /* Увеличено для опускания средней части */
+        }
+        
+        .resource-section {
+            width: 48%;
+            height: 100%;
+            background-color: #F8F3E0;
+            border: 6px solid #2C2C2C;
+            box-shadow: inset 0 0 0 4px #F8D157;
+            padding: 15px;
+            position: relative;
+        }
+        
+        .resource-title {
+            text-align: center;
+            font-size: 24px;
+            margin-bottom: 15px;
+            color: #B61921;
+            text-shadow: 2px 2px 0 #2C2C2C;
+        }
+        
+        .resource-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            align-items: center;
+            justify-items: center;
+        }
+        
+        .resource-icon {
+            width: 60px;
+            height: 60px;
+            image-rendering: pixelated;
+            cursor: pointer;
+            border: 3px solid transparent;
+            transition: all 0.2s;
+        }
+        
+        .resource-icon:hover {
+            transform: scale(1.1);
+        }
+        
+        .resource-icon.selected {
+            border: 3px solid #B61921;
+            box-shadow: 0 0 0 3px #F8D157;
+        }
+        
+        .resource-input-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 25px;
+        }
+        
+        .resource-input-label {
+            font-size: 18px;
+            margin-bottom: 8px;
+            color: #B61921;
+        }
+        
+        .resource-input {
+            width: 80px;
+            height: 40px;
+            border: 4px solid #2C2C2C;
+            box-shadow: inset 0 0 0 2px #F8D157;
+            font-family: 'Visitor TT2 Pro', monospace;
+            font-size: 20px;
+            padding: 0 10px;
+            background-color: #FFFFFF;
+            text-align: center;
+        }
+        
+        .exchange-section {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: 20px; /* Добавлено для опускания средней части */
+            margin-bottom: 20px;
+        }
+        
+        .exchange-rate {
+            font-size: 20px;
+            color: #2C2C2C;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        
+        .exchange-resources {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+        
+        .exchange-icon {
+            width: 80px;
+            height: 80px;
+            margin: 0 30px;
+            image-rendering: pixelated;
+            cursor: pointer;
+        }
+        
+        .exchange-arrow {
+            font-size: 40px;
+            margin: 0 10px;
+            color: #B61921;
+            text-shadow: 2px 2px 0 #2C2C2C;
+        }
+        
+        .buttons {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-bottom: 20px;
+        }
+        
+        .trade-button {
+            padding: 10px 30px;
+            background-color: #B61921;
+            border: 4px solid #2C2C2C;
+            box-shadow: inset 0 0 0 2px #F8D157;
+            font-family: 'Visitor TT2 Pro', monospace;
+            color: #F8D157;
+            font-size: 20px;
+            cursor: pointer;
+            transition: all 0.1s;
+        }
+        
+        .trade-button:hover {
+            background-color: #D62B33;
+        }
+        
+        .trade-button:active {
+            transform: translateY(2px);
+        }
+        
+        .back-button {
+            background-color: #F8F3E0;
+            color: #2C2C2C;
+        }
+        
+        .back-button:hover {
+            background-color: #E8E3D0;
+        }
+        
+        .box-decoration {
+            position: absolute;
+            width: 100%;
+            height: 20px;
+            background-color: #B61921;
+            bottom: 0;
+            border-top: 4px solid #2C2C2C;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="title-container">
+            <h1 class="title">ЗАМОРСКАЯ ТОРГОВЛЯ</h1>
+        </div>
+        
+        <div class="trade-content">
+            <!-- Верхняя часть: Наше предложение -->
+            <div class="trade-sections">
+                <div class="resource-section">
+                    <h2 class="resource-title">МЫ ПРЕДЛАГАЕМ</h2>
+                    <div class="resource-grid">
+                        <img src="%Глина%" alt="Глина" class="resource-icon" data-resource="Глина" id="ClayMy">
+                        <img src="%Пшеница%" alt="Пшеница" class="resource-icon" data-resource="Пшеница" id="WheatMy">
+                        <img src="%Камень%" alt="Камень" class="resource-icon" data-resource="Камень" id="RockMy">
+                        <img src="%Древесина%" alt="Древесина" class="resource-icon" data-resource="Древесина" id="WoodMy">
+                        <img src="%Овца%" alt="Овца" class="resource-icon" data-resource="Овца" id="SheepMy">
+                    </div>
+                    <div class="resource-input-container">
+                        <input type="number" min="4" value="4" step="4" class="resource-input" id="offerAmount">
+                    </div>
+                </div>
+                
+                <!-- Второе окно: Что мы хотим получить -->
+                <div class="resource-section">
+                    <h2 class="resource-title">МЫ ПОЛУЧАЕМ</h2>
+                    <div class="resource-grid">
+                        <img src="%Глина%" alt="Глина" class="resource-icon" data-resource="Глина" id="ClayYour">
+                        <img src="%Пшеница%" alt="Пшеница" class="resource-icon" data-resource="Пшеница" id="WheatYour">
+                        <img src="%Камень%" alt="Камень" class="resource-icon" data-resource="Камень" id="RockYour">
+                        <img src="%Древесина%" alt="Древесина" class="resource-icon" data-resource="Древесина" id="WoodYour">
+                        <img src="%Овца%" alt="Овца" class="resource-icon" data-resource="Овца" id="SheepYour">
+                    </div>
+                    <div class="resource-input-container">
+                        <input type="number" min="1" value="1" class="resource-input" id="receiveAmount" readonly>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Средняя часть: Обмен -->
+            <div class="exchange-section">
+                <div class="exchange-rate" id="ExchangeRate">Курс обмена: 4:1</div>
+                <div class="exchange-resources">
+                    <img src="%Любой%" alt="Предлагаем" class="exchange-icon" id="OfferResource" id="My">
+                    <span class="exchange-arrow">⇄</span>
+                    <img src="%Любой%" alt="Получаем" class="exchange-icon" id="ReceiveResource" id="Your">
+                </div>
+                
+                <div class="buttons">
+                    <button class="trade-button back-button" id="Back">НАЗАД</button>
+                    <button class="trade-button" id="Send">ОТПРАВИТЬ</button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Нижняя декоративная полоса -->
+        <div class="box-decoration"></div>
+    </div>
+
+    <script>
+        // Выбор ресурсов для обмена
+        const offerIcons = document.querySelectorAll('.resource-section:first-child .resource-icon');
+        const receiveIcons = document.querySelectorAll('.resource-section:last-child .resource-icon');
+        const offerResource = document.getElementById('offerResource');
+        const receiveResource = document.getElementById('receiveResource');
+        const offerAmountInput = document.getElementById('offerAmount');
+        const receiveAmountInput = document.getElementById('receiveAmount');
+        
+        const EXCHANGE_RATE = 4; // Курс обмена 4:1
+        
+        let selectedOffer = null;
+        let selectedReceive = null;
+        
+        // Обработчики для выбора предлагаемого ресурса (левое окно)
+        offerIcons.forEach(icon => {
+            icon.addEventListener('click', function() {
+                // Снимаем выделение со всех иконок в левом окне
+                offerIcons.forEach(i => i.classList.remove('selected'));
+                
+                // Выделяем выбранную иконку
+                this.classList.add('selected');              
+            });
+        });
+        
+        // Обработчики для выбора получаемого ресурса (правое окно)
+        receiveIcons.forEach(icon => {
+            icon.addEventListener('click', function() {
+                // Снимаем выделение со всех иконок в правом окне
+                receiveIcons.forEach(i => i.classList.remove('selected'));
+                
+                // Выделяем выбранную иконку
+                this.classList.add('selected');
+            });
+        });
+        
+        // Обработчик изменения количества предлагаемых ресурсов
+        offerAmountInput.addEventListener('input', function() {
+            // Округляем значение до ближайшего кратного 3
+            let value = parseInt(this.value) || 4;
+            value = Math.max(3, Math.round(value / 4) * 4);
+            this.value = value;
+            
+            updateReceiveAmount();
+        });
+        
+        // Функция для обновления количества получаемых ресурсов
+        function updateReceiveAmount() {
+            if (offerAmountInput.value && !isNaN(offerAmountInput.value)) {
+                const offerAmount = parseInt(offerAmountInput.value);
+                if (offerAmount >= 4) {
+                    receiveAmountInput.value = Math.floor(offerAmount / EXCHANGE_RATE);
+                } else {
+                    receiveAmountInput.value = 1;
+                    offerAmountInput.value = 4;
+                }
+            } else {
+                receiveAmountInput.value = 1;
+                offerAmountInput.value = 4;
+            }
+        }
+    </script>
+</body>
+</html>

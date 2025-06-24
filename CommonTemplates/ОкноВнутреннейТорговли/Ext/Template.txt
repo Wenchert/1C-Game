@@ -1,0 +1,280 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catan - Внутренняя торговля</title>
+    <style>        
+        body {
+            margin: 0;
+            padding: 0;
+            background: url('Image/ТорговляКатан.jpg') no-repeat center center fixed;
+            background-size: cover;
+            font-family: 'Visitor TT2 Pro', monospace;
+            color: #2C2C2C;
+            image-rendering: pixelated;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        
+        .container {
+            width: 800px;
+            height: 600px;
+            background-color: rgba(248, 243, 224, 0.9);
+            border: 12px solid #2C2C2C;
+            box-shadow: 15px 15px 0 rgba(0,0,0,0.3);
+            position: relative;
+            overflow: hidden;
+            backdrop-filter: blur(2px);
+        }
+        
+        .title-container {
+            background-color: #F8D157;
+            padding: 15px 0;
+            border-bottom: 8px solid #2C2C2C;
+            margin-bottom: 20px;
+        }
+        
+        .title {
+            font-size: 48px;
+            text-align: center;
+            margin: 0;
+            color: #B61921;
+            text-shadow: 4px 4px 0 #2C2C2C;
+            letter-spacing: 2px;
+        }
+        
+        .trade-content {
+            display: flex;
+            flex-direction: column;
+            height: calc(100% - 120px);
+            padding: 0 20px;
+        }
+        
+        .trade-sections {
+            display: flex;
+            justify-content: space-between;
+            height: 200px;
+            margin-bottom: 20px;
+        }
+        
+        .resource-section {
+            width: 48%;
+            height: 100%;
+            background-color: #F8F3E0;
+            border: 6px solid #2C2C2C;
+            box-shadow: inset 0 0 0 4px #F8D157;
+            padding: 15px;
+            position: relative;
+        }
+        
+        .resource-title {
+            text-align: center;
+            font-size: 24px;
+            margin-bottom: 15px;
+            color: #B61921;
+            text-shadow: 2px 2px 0 #2C2C2C;
+        }
+        
+        .resource-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+        }
+        
+        .resource-row {
+            display: flex;
+            align-items: center;
+        }
+        
+        .resource-icon {
+            width: 40px;
+            height: 40px;
+            margin-right: 10px;
+            image-rendering: pixelated;
+        }
+        
+        .resource-input {
+            width: 60px;
+            height: 30px;
+            border: 4px solid #2C2C2C;
+            box-shadow: inset 0 0 0 2px #F8D157;
+            font-family: 'Visitor TT2 Pro', monospace;
+            font-size: 16px;
+            padding: 0 5px;
+            background-color: #FFFFFF;
+        }
+        
+        .players-section {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        
+        .players-title {
+            font-size: 24px;
+            color: #B61921;
+            text-shadow: 2px 2px 0 #2C2C2C;
+            margin-bottom: 15px;
+        }
+        
+        .players-list {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+        
+        .player-avatar {
+            width: 80px;
+            height: 80px;
+            border: 4px solid #2C2C2C;
+            box-shadow: inset 0 0 0 3px #F8D157;
+            background-color: #FFFFFF;
+            margin: 0 20px;
+        }
+        
+        .arrow {
+            font-size: 36px;
+            margin: 0 10px;
+            color: #B61921;
+            text-shadow: 2px 2px 0 #2C2C2C;
+        }
+        
+        .buttons {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-bottom: 20px;
+        }
+        
+        .trade-button {
+            padding: 10px 30px;
+            background-color: #B61921;
+            border: 4px solid #2C2C2C;
+            box-shadow: inset 0 0 0 2px #F8D157;
+            font-family: 'Visitor TT2 Pro', monospace;
+            color: #F8D157;
+            font-size: 20px;
+            cursor: pointer;
+            transition: all 0.1s;
+        }
+        
+        .trade-button:hover {
+            background-color: #D62B33;
+        }
+        
+        .trade-button:active {
+            transform: translateY(2px);
+        }
+        
+        .back-button {
+            background-color: #F8F3E0;
+            color: #2C2C2C;
+        }
+        
+        .back-button:hover {
+            background-color: #E8E3D0;
+        }
+        
+        .box-decoration {
+            position: absolute;
+            width: 100%;
+            height: 20px;
+            background-color: #B61921;
+            bottom: 0;
+            border-top: 4px solid #2C2C2C;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="title-container">
+            <h1 class="title">ВНУТРЕННЯЯ ТОРГОВЛЯ</h1>
+        </div>
+        
+        <div class="trade-content">
+            <!-- Верхняя часть: Предложение и Получение -->
+            <div class="trade-sections">
+                <!-- Наше предложение -->
+                <div class="resource-section">
+                    <h2 class="resource-title">МЫ ПРЕДЛАГАЕМ</h2>
+                    <div class="resource-grid">
+                        <div class="resource-row">
+                            <img src="Image/Глина.png" alt="Глина" class="resource-icon">
+                            <input type="number" min="0" value="0" class="resource-input">
+                        </div>
+                        <div class="resource-row">
+                            <img src="Image/Пшеница.png" alt="Пшеница" class="resource-icon">
+                            <input type="number" min="0" value="0" class="resource-input">
+                        </div>
+                        <div class="resource-row">
+                            <img src="Image/Камень.png" alt="Камень" class="resource-icon">
+                            <input type="number" min="0" value="0" class="resource-input">
+                        </div>
+                        <div class="resource-row">
+                            <img src="Image/Древесина.png" alt="Древесина" class="resource-icon">
+                            <input type="number" min="0" value="0" class="resource-input">
+                        </div>
+                        <div class="resource-row">
+                            <img src="Image/Овца.png" alt="Овца" class="resource-icon">
+                            <input type="number" min="0" value="0" class="resource-input">
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Мы получаем -->
+                <div class="resource-section">
+                    <h2 class="resource-title">МЫ ПОЛУЧАЕМ</h2>
+                    <div class="resource-grid">
+                        <div class="resource-row" style="justify-content: flex-end;">
+                            <input type="number" min="0" value="0" class="resource-input">
+                            <img src="Image/Глина.png" alt="Глина" class="resource-icon">
+                        </div>
+                        <div class="resource-row" style="justify-content: flex-end;">
+                            <input type="number" min="0" value="0" class="resource-input">
+                            <img src="Image/Пшеница.png" alt="Пшеница" class="resource-icon">
+                        </div>
+                        <div class="resource-row" style="justify-content: flex-end;">
+                            <input type="number" min="0" value="0" class="resource-input">
+                            <img src="Image/Камень.png" alt="Камень" class="resource-icon">
+                        </div>
+                        <div class="resource-row" style="justify-content: flex-end;">
+                            <input type="number" min="0" value="0" class="resource-input">
+                            <img src="Image/Древесина.png" alt="Древесина" class="resource-icon">
+                        </div>
+                        <div class="resource-row" style="justify-content: flex-end;">
+                            <input type="number" min="0" value="0" class="resource-input">
+                            <img src="Image/Овца.png" alt="Овца" class="resource-icon">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Средняя часть: Игроки -->
+            <div class="players-section">
+                <h2 class="players-title">УЧАСТНИКИ ТОРГОВЛИ</h2>
+                <div class="players-list">
+                    <div class="player-avatar"></div>
+                    <span class="arrow">↔</span>
+                    <div class="player-avatar"></div>
+                </div>
+                
+                <div class="buttons">
+                    <button class="trade-button back-button">НАЗАД</button>
+                    <button class="trade-button">ОТПРАВИТЬ</button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Нижняя декоративная полоса -->
+        <div class="box-decoration"></div>
+    </div>
+</body>
+</html>
