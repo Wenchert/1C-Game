@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.20">
+	<ConfigVersions>
+		<Metadata name="Catalog.Гексы" id="5c3d6cb6-3efc-4e3a-8465-e443681a541c" configVersion="0b47d86fe3f8e04ca1d071fc77bb8b6000000000">
+			<Metadata name="Catalog.Гексы.TabularSection.Перекрестки.Attribute.Перекресток" id="ce2714ab-842a-4765-8b36-6d4130bcf3fe"/>
+			<Metadata name="Catalog.Гексы.TabularSection.Перекрестки" id="e7ba6dcd-8785-4ee2-a955-4e2fca86c003"/>
+		</Metadata>
+		<Metadata name="Catalog.КартыРазвития" id="cfb1b9d2-894f-41f6-af99-cca3213857b1" configVersion="6660342fcb3fbf48a8201d40b7e48a1b00000000">
+			<Metadata name="Catalog.КартыРазвития.Attribute.Картинка" id="8d37e283-01a8-4354-99ba-68f07bf358a5"/>
+		</Metadata>
+		<Metadata name="Catalog.КартыРазвития.Form.ФормаЭлемента" id="58c51641-5438-4b19-b793-7cceda9f48be" configVersion="5802c32a2cd256499cc0c4bb64e6cda900000000"/>
+		<Metadata name="Catalog.КартыРазвития.Form.ФормаЭлемента.Form" id="58c51641-5438-4b19-b793-7cceda9f48be.0" configVersion="e9ba33b7f6e88b49b1d85f71683919b300000000"/>
+		<Metadata name="Catalog.Перекрестки" id="5ca29c97-e3de-4512-9a12-3ee6658c9252" configVersion="bdbcdbaa8c938442a9bb11e7d85587b400000000">
+			<Metadata name="Catalog.Перекрестки.Attribute.Гавань" id="0a73fee2-f8d5-4f10-a71c-30bde0f1dfe0"/>
+		</Metadata>
+		<Metadata name="Catalog.Пути" id="755c76dc-4f34-4ad4-bfbf-aeb79567e5f1" configVersion="1f2eb8f60c054047972f98806b11febe00000000">
+			<Metadata name="Catalog.Пути.Attribute.Перекресток1" id="4b663797-9479-43e6-bc9a-05eff5375fce"/>
+			<Metadata name="Catalog.Пути.Attribute.Перекресток2" id="6bd8a91c-515b-45e4-b7c5-4e8edbe672ab"/>
+		</Metadata>
+		<Metadata name="Catalog.Пути.Form.ФормаЭлемента" id="d424eaca-e926-4e75-baf4-ae7c2dce9cbf" configVersion="a504536dd7d1d34f806348ecdbece6e600000000"/>
+		<Metadata name="Catalog.Пути.Form.ФормаЭлемента.Form" id="d424eaca-e926-4e75-baf4-ae7c2dce9cbf.0" configVersion="4da063523020fe44a8ba53206d2b58ba00000000"/>
+		<Metadata name="Catalog.Пути.ObjectModule" id="755c76dc-4f34-4ad4-bfbf-aeb79567e5f1.0" configVersion="9a445c8cbcc567438cea978dc23871cf00000000"/>
+		<Metadata name="Catalog.Строительство" id="9cb1dcbb-412c-4666-a961-9e8d171a1582" configVersion="6a8487d70a3ebb4aa6fa9af5de15460600000000">
+			<Metadata name="Catalog.Строительство.TabularSection.Сырье.Attribute.Количество" id="7149f363-95a0-4546-acf9-63b53445213a"/>
+			<Metadata name="Catalog.Строительство.TabularSection.Сырье.Attribute.Сырье" id="7c499564-6206-47ce-8140-09e7fde28306"/>
+			<Metadata name="Catalog.Строительство.TabularSection.Сырье" id="bf7f6d05-a557-4e28-bb1f-7083e9054f24"/>
+		</Metadata>
+		<Metadata name="CommonForm.ФормаХТМЛ" id="0c2d4b25-b5b0-42b7-a165-6a77bcc51167" configVersion="3fd7b9785a42114e9fbafccdb146448200000000"/>
+		<Metadata name="CommonForm.ФормаХТМЛ.Form" id="0c2d4b25-b5b0-42b7-a165-6a77bcc51167.0" configVersion="aa5168bd03b0644094a45c48dc808aba00000000"/>
+		<Metadata name="CommonModule.ОбщийМодульСервер" id="cb37672e-3b17-488e-b6cc-779aad237b8b" configVersion="e6a07cb235120441bed7cf5abb24cabe00000000"/>
+		<Metadata name="CommonModule.ОбщийМодульСервер.Module" id="cb37672e-3b17-488e-b6cc-779aad237b8b.0" configVersion="8eb8be69b425ab49957e8b565343a37200000000"/>
+		<Metadata name="CommonModule.РаботаСГлавнымМенюСервер" id="820625cd-4230-4c85-9ab3-07e0c8ec9031" configVersion="b307484b757b7d4f8aaf029a89c0b10e00000000"/>
+		<Metadata name="CommonModule.РаботаСГлавнымМенюСервер.Module" id="820625cd-4230-4c85-9ab3-07e0c8ec9031.0" configVersion="4c7b73ca19cb554592252177fde7b61e00000000"/>
+		<Metadata name="CommonModule.РаботаСИгровымПолемКлиент" id="dea829d8-bdbf-42d2-a868-4162ba509263" configVersion="9acd73a16cf3bf479cdd3f84ee9889f500000000"/>
+		<Metadata name="CommonModule.РаботаСИгровымПолемКлиент.Module" id="dea829d8-bdbf-42d2-a868-4162ba509263.0" configVersion="405f3eabe528b34fa6140b7c05b16d0600000000"/>
+		<Metadata name="CommonModule.РаботаСЛандшафтамиКлиент" id="a0971524-5aea-4953-ba98-ab3454274722" configVersion="21de3f385f20174c9b5a1255f19cf88b00000000"/>
+		<Metadata name="CommonModule.РаботаСЛандшафтамиКлиент.Module" id="a0971524-5aea-4953-ba98-ab3454274722.0" configVersion="c131adae7bbfa54dbef516cb93b7d9bb00000000"/>
+		<Metadata name="CommonModule.РаботаСЛандшафтамиСервер" id="baec08a9-911a-4080-aeb2-977a8adc95e0" configVersion="db329a6e988916469d44caa9a614e0a200000000"/>
+		<Metadata name="CommonModule.РаботаСЛандшафтамиСервер.Module" id="baec08a9-911a-4080-aeb2-977a8adc95e0.0" configVersion="f3d66b07f813f84b8071e1d8b3403bf400000000"/>
+		<Metadata name="CommonPicture.Глина" id="5f15e07a-6764-49be-b1f7-d42cd8203fa9" configVersion="0d9b803a0dd61e4c80594687a814324100000000"/>
+		<Metadata name="CommonPicture.Глина.Picture" id="5f15e07a-6764-49be-b1f7-d42cd8203fa9.0" configVersion="0536aba816d67d4f88938bda014d1d5500000000"/>
+		<Metadata name="CommonPicture.Гора" id="77aa749d-fd79-43b9-975c-ebb07c3842ee" configVersion="e9baeb3648a6cb40b09481b92bf3783500000000"/>
+		<Metadata name="CommonPicture.Гора.Picture" id="77aa749d-fd79-43b9-975c-ebb07c3842ee.0" configVersion="7aaa6b13ecf6c74b83c84670e759628600000000"/>
+		<Metadata name="CommonPicture.Древесина" id="ef4f030b-e0ee-4b9d-9f71-e78b14d92197" configVersion="b35f11eded70b94db7b613cf0ec604a600000000"/>
+		<Metadata name="CommonPicture.Древесина.Picture" id="ef4f030b-e0ee-4b9d-9f71-e78b14d92197.0" configVersion="114e004913057e469115868fedb3971400000000"/>
+		<Metadata name="CommonPicture.ЖелтыйГород" id="347a3228-6f44-40ab-ab54-44c5e6bd0c7c" configVersion="f2bdcb955bb50f499f4cba7530fa657100000000"/>
+		<Metadata name="CommonPicture.ЖелтыйГород.Picture" id="347a3228-6f44-40ab-ab54-44c5e6bd0c7c.0" configVersion="0e7051291f92254eae92ee44d9b6abf700000000"/>
+		<Metadata name="CommonPicture.ЖелтыйКубик1" id="4d783fc1-b5a4-41e4-82bf-8338fd0dfebc" configVersion="1594ec7286b1214abd97c42ba3e0d71e00000000"/>
+		<Metadata name="CommonPicture.ЖелтыйКубик1.Picture" id="4d783fc1-b5a4-41e4-82bf-8338fd0dfebc.0" configVersion="5df4f61b253506459f09e1adeffe1f6600000000"/>
+		<Metadata name="CommonPicture.ЖелтыйКубик2" id="b9c5ae77-d0a4-41e6-91b2-b2d5dd33accd" configVersion="ecce7e423127de4f806a8e78c86c009800000000"/>
+		<Metadata name="CommonPicture.ЖелтыйКубик2.Picture" id="b9c5ae77-d0a4-41e6-91b2-b2d5dd33accd.0" configVersion="d05a69a52c0e734daa69b624cad16d4100000000"/>
+		<Metadata name="CommonPicture.ЖелтыйКубик3" id="e9b9e64e-cbdc-4079-a75a-493aaa219816" configVersion="427e1365b0d88f469f7336c75fb1763200000000"/>
+		<Metadata name="CommonPicture.ЖелтыйКубик3.Picture" id="e9b9e64e-cbdc-4079-a75a-493aaa219816.0" configVersion="54bab7b630805e4499ef6725a40e98f400000000"/>
+		<Metadata name="CommonPicture.ЖелтыйКубик4" id="0a040ad6-7d57-4a55-ba65-511872e3dcf0" configVersion="73e3593d4fe4834b96d451e1e55e9f0100000000"/>
+		<Metadata name="CommonPicture.ЖелтыйКубик4.Picture" id="0a040ad6-7d57-4a55-ba65-511872e3dcf0.0" configVersion="f9472e811342ac4eae468afd19ad794400000000"/>
+		<Metadata name="CommonPicture.ЖелтыйКубик5" id="9c503c0a-b9f9-42d7-8378-050019764453" configVersion="e0e3282d57c3d64c875d76dddc3dc2d700000000"/>
+		<Metadata name="CommonPicture.ЖелтыйКубик5.Picture" id="9c503c0a-b9f9-42d7-8378-050019764453.0" configVersion="5353df696dae0245a690a08076985d4c00000000"/>
+		<Metadata name="CommonPicture.ЖелтыйКубик6" id="4dd0d1bc-ac0e-4d9d-89db-36e21e724dd6" configVersion="203bb37523f39f49abe9a4e6cf01adf700000000"/>
+		<Metadata name="CommonPicture.ЖелтыйКубик6.Picture" id="4dd0d1bc-ac0e-4d9d-89db-36e21e724dd6.0" configVersion="931d0a27b6621340aeecbbf7fa75f50a00000000"/>
+		<Metadata name="CommonPicture.ЖелтыйПоселение" id="35d0779e-66b5-4487-a4f9-92b6587a43f6" configVersion="778e222fa545534eb6a499f833f9ed9800000000"/>
+		<Metadata name="CommonPicture.ЖелтыйПоселение.Picture" id="35d0779e-66b5-4487-a4f9-92b6587a43f6.0" configVersion="e9f1f6bc8465c94ba1f251e180c779ee00000000"/>
+		<Metadata name="CommonPicture.ЗеленыйГород" id="b26ae453-dad6-44fe-9630-867e664e3594" configVersion="0358c515d009234395c10bfda31b9ce700000000"/>
+		<Metadata name="CommonPicture.ЗеленыйГород.Picture" id="b26ae453-dad6-44fe-9630-867e664e3594.0" configVersion="cc2e5b6e71776d44976d44efdbdadc0300000000"/>
+		<Metadata name="CommonPicture.ЗеленыйПоселение" id="623d754b-e546-4eb1-b502-0bb0baf77281" configVersion="4a1fa33746d0dc4d911d2c6f3be1b03700000000"/>
+		<Metadata name="CommonPicture.ЗеленыйПоселение.Picture" id="623d754b-e546-4eb1-b502-0bb0baf77281.0" configVersion="f154e23f37ddd04fa3a672b1549c27c200000000"/>
+		<Metadata name="CommonPicture.Камень" id="ef776c5f-21fa-4945-81e4-db852bf92f22" configVersion="1a05b99b91415b439cee9feda02873e800000000"/>
+		<Metadata name="CommonPicture.Камень.Picture" id="ef776c5f-21fa-4945-81e4-db852bf92f22.0" configVersion="2944f7d614f5214592dadb8af00e960700000000"/>
+		<Metadata name="CommonPicture.КартаСамоеБольшоеВойско" id="379350b0-9963-4546-b453-548efad99af5" configVersion="5ddf4220568ab14092a2d852ddd7838100000000"/>
+		<Metadata name="CommonPicture.КартаСамоеБольшоеВойско.Picture" id="379350b0-9963-4546-b453-548efad99af5.0" configVersion="4a0773458bbbf54eafd929f38754f83100000000"/>
+		<Metadata name="CommonPicture.Квадрат" id="31b3ce19-522c-49e5-ac3a-4d9ed1629d25" configVersion="166448a4f4dd0c469916927216304a7700000000"/>
+		<Metadata name="CommonPicture.Квадрат.Picture" id="31b3ce19-522c-49e5-ac3a-4d9ed1629d25.0" configVersion="aa3010b1b422194fbca8a5057de31c7a00000000"/>
+		<Metadata name="CommonPicture.КоричневыйГород" id="9274e444-3d8c-4d24-a0c8-77a314ae7ee5" configVersion="025869babad02344a894d589808f9eb600000000"/>
+		<Metadata name="CommonPicture.КоричневыйГород.Picture" id="9274e444-3d8c-4d24-a0c8-77a314ae7ee5.0" configVersion="d34c9ed048d961468e183862ef3e187c00000000"/>
+		<Metadata name="CommonPicture.КоричневыйПоселение" id="be89c9d7-94ea-46d7-af19-424eab72746e" configVersion="c2d31ce82626d5418cb43d42692d860a00000000"/>
+		<Metadata name="CommonPicture.КоричневыйПоселение.Picture" id="be89c9d7-94ea-46d7-af19-424eab72746e.0" configVersion="3e29877921c25840bf77cf31df676d3800000000"/>
+		<Metadata name="CommonPicture.КрасныйГород" id="4f5265de-bc1b-4d76-9f00-36381160abe0" configVersion="e0312bef9ead1b41ad25804429ec258b00000000"/>
+		<Metadata name="CommonPicture.КрасныйГород.Picture" id="4f5265de-bc1b-4d76-9f00-36381160abe0.0" configVersion="91eae4ac98f5b048b056392ad7d9025a00000000"/>
+		<Metadata name="CommonPicture.КрасныйКубик1" id="96d587bd-01cc-40f8-ad40-58f4e48bbb47" configVersion="b16257dd4d4ef04dbc635c1fa760c6d200000000"/>
+		<Metadata name="CommonPicture.КрасныйКубик1.Picture" id="96d587bd-01cc-40f8-ad40-58f4e48bbb47.0" configVersion="4fe0c8b033d5eb45acc496edc733c19800000000"/>
+		<Metadata name="CommonPicture.КрасныйКубик2" id="4c2b8e98-da35-40fd-a1df-a7f87231332e" configVersion="0f21102a50372a4f9841f5ade536014b00000000"/>
+		<Metadata name="CommonPicture.КрасныйКубик2.Picture" id="4c2b8e98-da35-40fd-a1df-a7f87231332e.0" configVersion="1f059868e0fc674d84072a68025c174c00000000"/>
+		<Metadata name="CommonPicture.КрасныйКубик3" id="810c37a4-aa59-4b7e-98f2-6d47f34c3b4b" configVersion="c20b76ffb5d2c84fa0f75ab576225b7200000000"/>
+		<Metadata name="CommonPicture.КрасныйКубик3.Picture" id="810c37a4-aa59-4b7e-98f2-6d47f34c3b4b.0" configVersion="ec659ec097d8b849890fde8b8b264bca00000000"/>
+		<Metadata name="CommonPicture.КрасныйКубик4" id="526dc746-e134-493e-a53d-d6ffe9e98973" configVersion="23fe10a53c50784bb7c14e32ca31285100000000"/>
+		<Metadata name="CommonPicture.КрасныйКубик4.Picture" id="526dc746-e134-493e-a53d-d6ffe9e98973.0" configVersion="e52fb51255611c42b708c09de10e3d1200000000"/>
+		<Metadata name="CommonPicture.КрасныйКубик5" id="167a6324-bd4c-4838-aaa9-07e5aab28ec5" configVersion="ec411bc2c1667c4e9a395b4d860710df00000000"/>
+		<Metadata name="CommonPicture.КрасныйКубик5.Picture" id="167a6324-bd4c-4838-aaa9-07e5aab28ec5.0" configVersion="58d2ea74cf28ff43bc3d258b5b15e20500000000"/>
+		<Metadata name="CommonPicture.КрасныйКубик6" id="0e4745f4-17d8-428e-9256-c26b9c7208ff" configVersion="35ed5bb790374e4a9bfa7430bbb356f300000000"/>
+		<Metadata name="CommonPicture.КрасныйКубик6.Picture" id="0e4745f4-17d8-428e-9256-c26b9c7208ff.0" configVersion="9d6d4232f68e86468bf4ca8df85f03a100000000"/>
+		<Metadata name="CommonPicture.КрасныйПоселение" id="934c2996-1bbd-4c46-b506-79adc8745707" configVersion="9838c383f5ce7a42af26754dbc0b5c5e00000000"/>
+		<Metadata name="CommonPicture.КрасныйПоселение.Picture" id="934c2996-1bbd-4c46-b506-79adc8745707.0" configVersion="eb69351d1c08a7489f085a42179b22dd00000000"/>
+		<Metadata name="CommonPicture.Лес" id="818af573-974f-4993-ba54-bbd25aba6a8e" configVersion="10db14dc6295ec43930e3f90575dbe5400000000"/>
+		<Metadata name="CommonPicture.Лес.Picture" id="818af573-974f-4993-ba54-bbd25aba6a8e.0" configVersion="ae91316713ce0a42a8d6b0414282353200000000"/>
+		<Metadata name="CommonPicture.Любой" id="d56214dd-e99c-4754-8080-ff45b3a5576d" configVersion="f32a33946414f04bbff0b7fe90705c0b00000000"/>
+		<Metadata name="CommonPicture.Любой.Picture" id="d56214dd-e99c-4754-8080-ff45b3a5576d.0" configVersion="d0e46bd16073f6469f75dd382311ac6d00000000"/>
+		<Metadata name="CommonPicture.ОбщаяКарта" id="725a6536-cba9-4635-b7b2-037fc9b9030f" configVersion="4c08eabeff776748a0c03490441f62c500000000"/>
+		<Metadata name="CommonPicture.ОбщаяКарта.Picture" id="725a6536-cba9-4635-b7b2-037fc9b9030f.0" configVersion="a53dae5e30fce44bb0c5db2c9b57f45000000000"/>
+		<Metadata name="CommonPicture.Овца" id="68adf84e-7320-4c6c-8193-af4a07e189b6" configVersion="d54e25ec9557cf4683e9f02c00b98cb000000000"/>
+		<Metadata name="CommonPicture.Овца.Picture" id="68adf84e-7320-4c6c-8193-af4a07e189b6.0" configVersion="93f0a71af8e2cc4189d16df0ff194eec00000000"/>
+		<Metadata name="CommonPicture.Пастбище" id="81cf2a75-7ae1-44d5-a68b-72b9de7ac6e5" configVersion="2b7ba32a1c77614e99217c5f294f4f0000000000"/>
+		<Metadata name="CommonPicture.Пастбище.Picture" id="81cf2a75-7ae1-44d5-a68b-72b9de7ac6e5.0" configVersion="c731140da223b346a3ca0de05cc7dcea00000000"/>
+		<Metadata name="CommonPicture.Пашня" id="868e417a-798e-420e-b0f5-8b2a80e9acd8" configVersion="9223bd1ab3c0c24a9d7725da153517e700000000"/>
+		<Metadata name="CommonPicture.Пашня.Picture" id="868e417a-798e-420e-b0f5-8b2a80e9acd8.0" configVersion="ae4ceeebedd8fd4ca85edf79d6428e1100000000"/>
+		<Metadata name="CommonPicture.Порт" id="28a7714a-eccd-469f-816e-ba6880291e97" configVersion="c213994b4b7c4a459b351a17401db90200000000"/>
+		<Metadata name="CommonPicture.Порт.Picture" id="28a7714a-eccd-469f-816e-ba6880291e97.0" configVersion="a020bbbbf49ba9469e7345c3a6176f1400000000"/>
+		<Metadata name="CommonPicture.Пустыня" id="ecef3429-c122-49ce-8e1f-ffc3d9a69ce5" configVersion="807d00c7cb1be74ba95ffa8c54d13c9800000000"/>
+		<Metadata name="CommonPicture.Пустыня.Picture" id="ecef3429-c122-49ce-8e1f-ffc3d9a69ce5.0" configVersion="b58f9d974fea4543ac2d75f24827e37700000000"/>
+		<Metadata name="CommonPicture.Пшеница" id="2c37d5c5-cf06-4c3f-8738-d09fbf8d0aad" configVersion="aea1adec1478544fb8b5aa08fb25cb5d00000000"/>
+		<Metadata name="CommonPicture.Пшеница.Picture" id="2c37d5c5-cf06-4c3f-8738-d09fbf8d0aad.0" configVersion="fe6e66bbaa8a544da7fabf06d562e31400000000"/>
+		<Metadata name="CommonPicture.Разбойник" id="a5eb91d9-a4f2-4a9e-98d6-ae920fa9c081" configVersion="3e9e8a58718664478248126240f640a900000000"/>
+		<Metadata name="CommonPicture.Разбойник.Picture" id="a5eb91d9-a4f2-4a9e-98d6-ae920fa9c081.0" configVersion="de111065316a3d4eaf44e9550a0a61c200000000"/>
+		<Metadata name="CommonPicture.Рыцарь" id="dd8338dd-2fa3-4cd5-a385-bf6b2f8687c6" configVersion="a62d3edeb1ea0947851fb7d52d11d1d100000000"/>
+		<Metadata name="CommonPicture.Рыцарь.Picture" id="dd8338dd-2fa3-4cd5-a385-bf6b2f8687c6.0" configVersion="160b6d208a8a40458b8f6e38b57ecdd400000000"/>
+		<Metadata name="CommonPicture.СамыйДлинныйТракт" id="37e1395a-b9ef-46d7-929e-4306407c349b" configVersion="0c3d7cfe13029e419a21cf89efa7adf900000000"/>
+		<Metadata name="CommonPicture.СамыйДлинныйТракт.Picture" id="37e1395a-b9ef-46d7-929e-4306407c349b.0" configVersion="59dd480898af9e42abdb3559ab6b1ef500000000"/>
+		<Metadata name="CommonPicture.СинийГород" id="0b2c18b4-187e-4fe2-a344-adcfc76d5a9a" configVersion="d9593d16ebf4da479ced06847cce5cd100000000"/>
+		<Metadata name="CommonPicture.СинийГород.Picture" id="0b2c18b4-187e-4fe2-a344-adcfc76d5a9a.0" configVersion="042c8054650dfa4982b545e312d6fa4c00000000"/>
+		<Metadata name="CommonPicture.СинийПоселение" id="f0ea1d29-bf96-440e-b899-ea31ebe2fb74" configVersion="98b38b0fcba6c141b03821c8c364875e00000000"/>
+		<Metadata name="CommonPicture.СинийПоселение.Picture" id="f0ea1d29-bf96-440e-b899-ea31ebe2fb74.0" configVersion="0874148e7bde0f49b4b6ebdda498c15300000000"/>
+		<Metadata name="CommonPicture.СтрелкаВлево" id="8deb4616-f9f6-4f84-9d1e-eb453b0285ab" configVersion="a6f1d21cc32a154c872ba5ba0504e05400000000"/>
+		<Metadata name="CommonPicture.СтрелкаВлево.Picture" id="8deb4616-f9f6-4f84-9d1e-eb453b0285ab.0" configVersion="14a30d310d40c74cae8b7ad79e5a2b6600000000"/>
+		<Metadata name="CommonPicture.СтрелкаВправо" id="d8a861b9-4926-4fa9-ab77-7c3853bd7e8e" configVersion="fdad86b049da0c4c9ea846886550bab100000000"/>
+		<Metadata name="CommonPicture.СтрелкаВправо.Picture" id="d8a861b9-4926-4fa9-ab77-7c3853bd7e8e.0" configVersion="1c49091a2f734d48af251909f3534af600000000"/>
+		<Metadata name="CommonPicture.ТекстураДерева" id="54b2a38e-c3cc-41f8-aa1d-9b36a4179112" configVersion="c9bf123ceac3a04497edcb2313a591e800000000"/>
+		<Metadata name="CommonPicture.ТекстураДерева.Picture" id="54b2a38e-c3cc-41f8-aa1d-9b36a4179112.0" configVersion="6d8b37ea13609e439f04315937b3853e00000000"/>
+		<Metadata name="CommonPicture.ТекстураМоря" id="80106d0c-3150-40a2-9738-cd7d8ae6d656" configVersion="9fa37b137e4f5346b3bc2a05acbbe6f000000000"/>
+		<Metadata name="CommonPicture.ТекстураМоря.Picture" id="80106d0c-3150-40a2-9738-cd7d8ae6d656.0" configVersion="a0c57b7ef82222438e1750acbfc1740f00000000"/>
+		<Metadata name="CommonPicture.ФонВнутреннейТорговли" id="f60522a1-7852-4d70-9fb5-0bed4d44cd5f" configVersion="fae23c414915dd4fbd157a40194786d600000000"/>
+		<Metadata name="CommonPicture.ФонВнутреннейТорговли.Picture" id="f60522a1-7852-4d70-9fb5-0bed4d44cd5f.0" configVersion="d5587588f296a1449d5ef1348e9020b300000000"/>
+		<Metadata name="CommonPicture.ФонГлавногоМеню" id="8e8694f3-8ef6-44a8-bd05-60b644429f26" configVersion="7677c19e01a14c46a8ea9a187855e0e000000000"/>
+		<Metadata name="CommonPicture.ФонГлавногоМеню.Picture" id="8e8694f3-8ef6-44a8-bd05-60b644429f26.0" configVersion="06dbe9e8ab557541903b296821ea19e600000000"/>
+		<Metadata name="CommonPicture.ФонЗаморскойТорговли" id="1bfc6601-02b5-4041-91d5-6aaaf83dc4ca" configVersion="882a83086774584a868d177431e6525100000000"/>
+		<Metadata name="CommonPicture.ФонЗаморскойТорговли.Picture" id="1bfc6601-02b5-4041-91d5-6aaaf83dc4ca.0" configVersion="478ebf335d52a94d9b683cf874439f9400000000"/>
+		<Metadata name="CommonPicture.Холм" id="93c681b9-8355-4c1b-a1ed-aef709520bcc" configVersion="5b45ffbbdb01ca409db367c2a89ae36500000000"/>
+		<Metadata name="CommonPicture.Холм.Picture" id="93c681b9-8355-4c1b-a1ed-aef709520bcc.0" configVersion="26cd2a3863cf7f4a89c4d054127af04a00000000"/>
+		<Metadata name="CommonTemplate.ГлавноеМеню" id="3757dfdc-685c-4d6e-a17d-a680b0d046c1" configVersion="78036b48fd823844a7f1b74fe630cb6600000000"/>
+		<Metadata name="CommonTemplate.ГлавноеМеню.Template" id="3757dfdc-685c-4d6e-a17d-a680b0d046c1.0" configVersion="45b84b701610534c8490f857c19a34bb00000000"/>
+		<Metadata name="CommonTemplate.ИгровоеПоле" id="1df3492a-712f-4ed7-ad67-74a721b5f274" configVersion="e56a98cdcb5df445b0c2d5c1ef30d18700000000"/>
+		<Metadata name="CommonTemplate.ИгровоеПоле.Template" id="1df3492a-712f-4ed7-ad67-74a721b5f274.0" configVersion="2a0e54977e9eea419cbdf980a1afd30200000000"/>
+		<Metadata name="CommonTemplate.ОкноВнутреннейТорговли" id="84be1b2b-3d90-4efb-be17-312c8c77f21b" configVersion="1b190aaef857ae4581982e6d8e91515c00000000"/>
+		<Metadata name="CommonTemplate.ОкноВнутреннейТорговли.Template" id="84be1b2b-3d90-4efb-be17-312c8c77f21b.0" configVersion="bf3eb6774b9c5441a75035b2256fde6e00000000"/>
+		<Metadata name="CommonTemplate.ОкноЗаморскойТорговли" id="5c796152-1d02-460b-bfc9-b210ece627f0" configVersion="52ba1b37b6426f4bb3063890a7656a0c00000000"/>
+		<Metadata name="CommonTemplate.ОкноЗаморскойТорговли.Template" id="5c796152-1d02-460b-bfc9-b210ece627f0.0" configVersion="810d28e01223c54e95c1550c1e8f8c2c00000000"/>
+		<Metadata name="Configuration.Колонизаторы" id="ba0b63ee-29a8-4f30-9f9a-451fb7929b56" configVersion="191b1848298d1842aa7d3f2c64bf4ea400000000"/>
+		<Metadata name="Configuration.Колонизаторы.HomePageWorkArea" id="b158ee68-b031-44bc-9b65-0656de7b3558.8" configVersion="903bb2eabd8d454ba134c858ada7f8c600000000"/>
+		<Metadata name="Configuration.Колонизаторы.Logo" id="b158ee68-b031-44bc-9b65-0656de7b3558.1" configVersion="1828dad596579948b2e17d3289b5a90a00000000"/>
+		<Metadata name="Configuration.Колонизаторы.SessionModule" id="b158ee68-b031-44bc-9b65-0656de7b3558.7" configVersion="f043b251ba71554d9ac9b84498f0b26400000000"/>
+		<Metadata name="Configuration.Колонизаторы.Splash" id="b158ee68-b031-44bc-9b65-0656de7b3558.2" configVersion="e99e0b21b2fd244f90b7afba43b9e23a00000000"/>
+		<Metadata name="Constant.АктивныйИгрок" id="64b21bd2-7879-4433-b285-8924c4e0ea92" configVersion="c0032c565d10574583f81bca32e64e9b00000000"/>
+		<Metadata name="Document.ВнутренняяТорговля" id="4722414a-e1f3-4c97-a496-0c285da2f77c" configVersion="120e810037a92140aa6d1c38ea2e8c0700000000">
+			<Metadata name="Document.ВнутренняяТорговля.TabularSection.Требование.Attribute.Сырье" id="2bf1db2c-fc4a-4ed3-af2e-0ad2630d4696"/>
+			<Metadata name="Document.ВнутренняяТорговля.TabularSection.Предложение.Attribute.Сырье" id="940a66f5-7526-4ee7-a6ab-2c8aab544cbf"/>
+			<Metadata name="Document.ВнутренняяТорговля.Attribute.ИгрокПолучатель" id="98c7269d-4ccf-47bd-b0c0-9e9b00666980"/>
+			<Metadata name="Document.ВнутренняяТорговля.TabularSection.Предложение" id="9d1671fe-ceca-4f5d-a38f-419cac8bb1ed"/>
+			<Metadata name="Document.ВнутренняяТорговля.TabularSection.Требование.Attribute.Количесвто" id="9f4db30e-9296-4f2c-a4d7-b372414b50e8"/>
+			<Metadata name="Document.ВнутренняяТорговля.TabularSection.Требование" id="a3ad45c2-85cb-4727-8199-717350cacfaa"/>
+			<Metadata name="Document.ВнутренняяТорговля.TabularSection.Предложение.Attribute.Количество" id="b764ce33-1e38-4aa5-92bb-55914330e3ac"/>
+			<Metadata name="Document.ВнутренняяТорговля.Attribute.ИгрокПредложивший" id="d0d24f25-e114-48b5-bd7a-043025787a3a"/>
+		</Metadata>
+		<Metadata name="Document.ЗаморскаяТорговля" id="7ee81f44-381a-40d3-b9b0-9044328c8ca4" configVersion="62585f2d09af8e4e8991d1e079e51af500000000">
+			<Metadata name="Document.ЗаморскаяТорговля.Attribute.Игрок" id="5536c8e9-43d0-4a51-a993-a49504a8a7ed"/>
+			<Metadata name="Document.ЗаморскаяТорговля.TabularSection.Предложение.Attribute.Количество" id="89c27cf5-88e2-45f3-a344-47492f9a21fb"/>
+			<Metadata name="Document.ЗаморскаяТорговля.TabularSection.Требование.Attribute.Сырье" id="8efffbd8-3518-4180-91af-66004f8402ea"/>
+			<Metadata name="Document.ЗаморскаяТорговля.TabularSection.Требование" id="9eec8f36-0303-4e01-b60d-894d022bd2ff"/>
+			<Metadata name="Document.ЗаморскаяТорговля.TabularSection.Требование.Attribute.Количество" id="e382d0f1-d7ac-4a5f-8b69-e1a4095141dd"/>
+			<Metadata name="Document.ЗаморскаяТорговля.Attribute.Гавань" id="e41d30a6-ae6f-40e0-a7f0-aff29b0866ed"/>
+			<Metadata name="Document.ЗаморскаяТорговля.TabularSection.Предложение.Attribute.Сырье" id="f0af6b05-71da-48be-9b9b-c03aa3793dc1"/>
+			<Metadata name="Document.ЗаморскаяТорговля.TabularSection.Предложение" id="ff01d75d-15bd-407e-9883-c9417bd2394b"/>
+		</Metadata>
+		<Metadata name="Enum.Гавани" id="fd401e21-a2f8-42da-a868-09ad7622cd6e" configVersion="4e04077c51308c479a2159be2a77959400000000">
+			<Metadata name="Enum.Гавани.EnumValue.Камень2к1" id="1e04647c-caba-4bac-be8c-f2b46775f0b6"/>
+			<Metadata name="Enum.Гавани.EnumValue.Дерево2к1" id="6be46718-7b14-4c70-85bc-19df5f138540"/>
+			<Metadata name="Enum.Гавани.EnumValue.Глина2к1" id="7b282b92-6323-4a5b-a3cd-92d5269a1915"/>
+			<Metadata name="Enum.Гавани.EnumValue.Зерно2к1" id="894253dd-d443-4fc6-aa11-aeb8ad47a540"/>
+			<Metadata name="Enum.Гавани.EnumValue.Овца2к1" id="af14244d-b394-4dc4-b719-716f05f5e81a"/>
+			<Metadata name="Enum.Гавани.EnumValue.Любой3к1" id="ce4afb70-f891-4f2a-b15a-122817f87373"/>
+		</Metadata>
+		<Metadata name="Enum.Игроки" id="47402ca5-4da2-4b8d-af3e-88366992bbc3" configVersion="4f55b0978438ae45bff475bd4f72676900000000">
+			<Metadata name="Enum.Игроки.EnumValue.Игрок3" id="510060ae-f4d8-4547-932f-72eb592fe455"/>
+			<Metadata name="Enum.Игроки.EnumValue.Игрок4" id="59ea614d-fda7-4e25-9ea4-ac2b2338e014"/>
+			<Metadata name="Enum.Игроки.EnumValue.Игрок2" id="79f295ba-1a9f-47c6-a785-2d9e5495f8a9"/>
+			<Metadata name="Enum.Игроки.EnumValue.Игрок1" id="ee7a17ef-3e4f-4121-b18a-2cc337dc295f"/>
+		</Metadata>
+		<Metadata name="Enum.Ландшафты" id="4445bd60-9027-4610-8364-d2af3d13e56e" configVersion="4f120919d3a97b4bbd9c9abbe1d7340f00000000">
+			<Metadata name="Enum.Ландшафты.EnumValue.Пустыня" id="19ee80c8-f905-4b01-9feb-29372ecfe686"/>
+			<Metadata name="Enum.Ландшафты.EnumValue.Пастбище" id="2b62f58e-c006-4c5c-ae65-1f843cbd8355"/>
+			<Metadata name="Enum.Ландшафты.EnumValue.Гора" id="83dce302-ac12-46b2-b9ff-5d128a010aa2"/>
+			<Metadata name="Enum.Ландшафты.EnumValue.Лес" id="96eb0eeb-3be6-42f8-911a-91a41011b272"/>
+			<Metadata name="Enum.Ландшафты.EnumValue.Пашня" id="a50c73b1-c214-4578-84ee-99c4edf8e994"/>
+			<Metadata name="Enum.Ландшафты.EnumValue.Холм" id="c8f8778e-a3a2-49ab-808d-8cbc864a022f"/>
+		</Metadata>
+		<Metadata name="Enum.ОсобыеКарты" id="f9e0443b-ee47-4999-84af-aab13ab3416f" configVersion="6e295c094a80124c8d892f7e08fb45a900000000">
+			<Metadata name="Enum.ОсобыеКарты.EnumValue.СамыйДлинныйТракт" id="1cf9c010-8503-4618-9d8a-b1ff805f14fe"/>
+			<Metadata name="Enum.ОсобыеКарты.EnumValue.СамоеБольшоеВойско" id="bc1f2c69-ceba-4a62-92be-c6ff760bb466"/>
+		</Metadata>
+		<Metadata name="Enum.Сырье" id="5a776d2c-2f54-42f0-9747-42d6b7346b10" configVersion="39ccd7f3edad904fa59e2b92936b2b6600000000">
+			<Metadata name="Enum.Сырье.EnumValue.Овца" id="0501fcfd-1a01-4555-bb96-661ffb9494c9"/>
+			<Metadata name="Enum.Сырье.EnumValue.Руда" id="16c3b17f-825c-4830-af44-2dfbf5c08b90"/>
+			<Metadata name="Enum.Сырье.EnumValue.Любой" id="482483d6-2817-4bdd-b21c-b753f74aff8c"/>
+			<Metadata name="Enum.Сырье.EnumValue.Зерно" id="6b63115e-62b7-4d7d-9b50-938ea891cd76"/>
+			<Metadata name="Enum.Сырье.EnumValue.Древесина" id="9851e27a-b9bd-430b-940b-584846810ef5"/>
+			<Metadata name="Enum.Сырье.EnumValue.Глина" id="b3ed7646-2af6-4488-98de-af7a73a12402"/>
+		</Metadata>
+		<Metadata name="Enum.Цвета" id="7fab320d-ead7-4439-a02e-0c2a7bf70f4f" configVersion="a919b22951f3354ea8baf0114443c58a00000000">
+			<Metadata name="Enum.Цвета.EnumValue.Синий" id="3ac7bf3e-46db-44cb-acb5-2434682712a0"/>
+			<Metadata name="Enum.Цвета.EnumValue.Желтый" id="3b726ec2-1557-4d29-891a-3cf2f023e7c9"/>
+			<Metadata name="Enum.Цвета.EnumValue.Зеленый" id="84099636-8188-4b1f-b39f-005f45b6e83e"/>
+			<Metadata name="Enum.Цвета.EnumValue.Красный" id="c138952c-ef84-4af1-85c8-d6e118ff2808"/>
+			<Metadata name="Enum.Цвета.EnumValue.Коричневый" id="ca10bf72-6f28-46c1-9461-f1c2b72a8638"/>
+		</Metadata>
+		<Metadata name="InformationRegister.ПобедныеОчкиИгроков" id="3180f40d-24ac-46f8-b96b-9401c9baa8ec" configVersion="c4879d9792e81b4c9ffcc3acd190c5c000000000">
+			<Metadata name="InformationRegister.ПобедныеОчкиИгроков.Resource.ПобедныеОчки" id="08bb60e7-88bd-4d4e-a1e3-fb0caf9c9fec"/>
+			<Metadata name="InformationRegister.ПобедныеОчкиИгроков.Dimension.Игрок" id="cfd6bc93-c245-40a4-a9bd-6943d44e9f72"/>
+		</Metadata>
+		<Metadata name="InformationRegister.РесурсыИгроков" id="2045bcbb-6500-4152-bedc-0db7bc2b7176" configVersion="7b3db21ad4ba1149a7c6c1da7357d7a100000000">
+			<Metadata name="InformationRegister.РесурсыИгроков.Dimension.Сырье" id="2a642dfa-4200-4cfc-979b-0ddf8ca1c354"/>
+			<Metadata name="InformationRegister.РесурсыИгроков.Resource.Количество" id="741917a8-617f-498f-9917-aa7b8b6f5922"/>
+			<Metadata name="InformationRegister.РесурсыИгроков.Dimension.Игрок" id="b06d3177-f328-45d7-9507-182b638f93bc"/>
+		</Metadata>
+		<Metadata name="InformationRegister.СтатусыГексов" id="e39ccc8f-acc8-443f-a512-3efadac06824" configVersion="2773bbde6de3104dbce255019bb59f2100000000">
+			<Metadata name="InformationRegister.СтатусыГексов.Resource.Ландшафт" id="0eb19eba-9bf3-4456-bf24-e0bdcf18578b"/>
+			<Metadata name="InformationRegister.СтатусыГексов.Resource.Номер" id="1101b148-1fd7-4f3f-b2c5-1089a7b89d8f"/>
+			<Metadata name="InformationRegister.СтатусыГексов.Dimension.Гекс" id="e1dac5c3-ce0d-4c76-9f63-eb973c6d2f81"/>
+		</Metadata>
+		<Metadata name="InformationRegister.СтатусыКартРазвития" id="6c5b9ec4-298f-4fb0-9bf5-8da677bd425b" configVersion="8bab865605379e47a7813c940aabc51a00000000">
+			<Metadata name="InformationRegister.СтатусыКартРазвития.Resource.Игрок" id="38347a09-042e-46f0-b251-f076031c1deb"/>
+			<Metadata name="InformationRegister.СтатусыКартРазвития.Dimension.КартаРазвития" id="d379ed2c-b59a-49e6-af27-39fbf874450e"/>
+		</Metadata>
+		<Metadata name="InformationRegister.СтатусыОсобыхКарт" id="b63e60b0-7d75-48cf-a056-b016d1251f10" configVersion="eb208cd53a130446b65f39effbb4f28600000000">
+			<Metadata name="InformationRegister.СтатусыОсобыхКарт.Dimension.Карта" id="5f5d091f-887b-442f-93fc-0e983ce54ae1"/>
+			<Metadata name="InformationRegister.СтатусыОсобыхКарт.Resource.Игрок" id="df747b50-b636-47ee-a8b0-a337e5f8cf77"/>
+		</Metadata>
+		<Metadata name="InformationRegister.СтатусыПерекрестков" id="a2b62499-5fb3-4f7d-b3b5-6a5cf574e7b5" configVersion="a2742108fc89604fb02804543e172f7300000000">
+			<Metadata name="InformationRegister.СтатусыПерекрестков.Dimension.Перекресток" id="2777dfc1-4226-4bf9-9d38-06afeb7f04cc"/>
+			<Metadata name="InformationRegister.СтатусыПерекрестков.Resource.Объект" id="30b3f35d-4771-4b56-a417-04991cac8da4"/>
+			<Metadata name="InformationRegister.СтатусыПерекрестков.Resource.Игрок" id="78dcd6f3-d738-4395-8281-163b898fe5e0"/>
+		</Metadata>
+		<Metadata name="InformationRegister.СтатусыПути" id="e00021b9-06f8-4b57-a1bd-7bf4de83a340" configVersion="ce0c463651425c42a08982025f46cdf300000000">
+			<Metadata name="InformationRegister.СтатусыПути.Dimension.Путь" id="8943d9e8-2a9f-4e99-91d1-4ac84379429b"/>
+			<Metadata name="InformationRegister.СтатусыПути.Resource.Игрок" id="b5590fd2-cea7-4e09-b59f-1cb0c8e0e307"/>
+		</Metadata>
+		<Metadata name="InformationRegister.ЦветаИгроков" id="a0ee4640-9c7a-4305-914c-67b8dafe0d6d" configVersion="5a8ef4bbe3762e428d62c8ae4a60045d00000000">
+			<Metadata name="InformationRegister.ЦветаИгроков.Resource.Цвет" id="93360e83-a814-4c4f-8d5c-287f39a4be11"/>
+			<Metadata name="InformationRegister.ЦветаИгроков.Dimension.Игрок" id="a02e2085-e2da-4cdd-882e-897565d645dd"/>
+		</Metadata>
+		<Metadata name="Language.Русский" id="06880fb9-f9cf-4126-8b35-64782a3b7382" configVersion="f09b5a8d91d5f7469ec56eb3639f386700000000"/>
+		<Metadata name="Role.Игрок" id="014f2103-6fa0-46a1-b147-e7d5f6ca91a1" configVersion="a969e063c6a2184ea29a5a86b232fee300000000"/>
+		<Metadata name="Role.Игрок.Rights" id="014f2103-6fa0-46a1-b147-e7d5f6ca91a1.0" configVersion="dcba7d5d6ed35944a00f080bf69c2c5200000000"/>
+		<Metadata name="Role.ПолныеПрава" id="2ddb73ac-36ef-4e85-8ea4-8c59c594001f" configVersion="0c334a2fa806754ba3d78ac642f4940000000000"/>
+		<Metadata name="Role.ПолныеПрава.Rights" id="2ddb73ac-36ef-4e85-8ea4-8c59c594001f.0" configVersion="32d249d350ecde4788b7a242949dc61900000000"/>
+		<Metadata name="SessionParameter.ТекущийИгрок" id="c59ce290-322a-48a1-9441-a54e6265c497" configVersion="a1a5b307183d4c4d9dd1c94945cd040600000000"/>
+	</ConfigVersions>
+</ConfigDumpInfo>
